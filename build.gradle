@@ -1,0 +1,5 @@
+// BudGuard — 耳机守护（独立安卓包）
+// 编译：Android Studio 打开本目录，或命令行 gradle assembleDebug
+plugins {
+    id 'com.android.application' version '7.4.2' apply false
+}

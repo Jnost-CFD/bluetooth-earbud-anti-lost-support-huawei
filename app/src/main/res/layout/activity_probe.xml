@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF0E1116"
+    android:orientation="vertical"
+    android:padding="14dp">
+
+    <TextView
+        android:id="@+id/probe_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="3dp"
+        android:text="@string/probe_starting"
+        android:textColor="#FF8A94A6"
+        android:textSize="13sp" />
+
+    <ListView
+        android:id="@+id/probe_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:divider="#FF1F2733"
+        android:dividerHeight="1dp" />
+
+    <Button
+        android:id="@+id/probe_copy"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="6dp"
+        android:backgroundTint="#FF2B3546"
+        android:text="@string/probe_copy"
+        android:textColor="#FFFFFFFF" />
+
+    <Button
+        android:id="@+id/probe_stop"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="6dp"
+        android:backgroundTint="#FF2B3546"
+        android:text="@string/cancel"
+        android:textColor="#FFFFFFFF" />
+</LinearLayout>

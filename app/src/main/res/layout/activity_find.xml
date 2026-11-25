@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF0E1116"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/find_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/find_title"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="估算距离"
+        android:textColor="#FF6E7686"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/find_dist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="--"
+        android:textColor="#FFFFFFFF"
+        android:textSize="54sp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/find_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:layout_marginTop="26dp"
+        android:max="100"
+        android:progress="0" />
+
+    <TextView
+        android:id="@+id/find_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp"
+        android:text="@string/find_hint"
+        android:textColor="#FFB6BFCC"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/find_rssi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="等待广播…"
+        android:textColor="#FF6E7686"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/find_stop"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="34dp"
+        android:backgroundTint="#FF2B3546"
+        android:text="@string/find_stop"
+        android:textColor="#FFFFFFFF" />
+</LinearLayout>

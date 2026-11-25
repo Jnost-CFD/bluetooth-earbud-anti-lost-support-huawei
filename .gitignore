@@ -1,0 +1,36 @@
+# ==== 构建产物 ====
+/build/
+/app/build/
+/dist/
+*.apk
+*.aab
+*.idsig
+*.zip
+*.jar
+*.class
+
+# ==== 签名与密钥（绝对不要入库）====
+*.keystore
+*.jks
+*.p12
+*.pem
+keystore.properties
+signing.properties
+
+# ==== Gradle / IDE ====
+.gradle/
+gradle-app.setting
+!gradle/wrapper/gradle-wrapper.jar
+local.properties
+*.iml
+.idea/
+.cxx/
+captures/
+
+# ==== 系统与杂项 ====
+Thumbs.db
+desktop.ini
+.DS_Store
+*.log
+*.bak
+新建文本文档.txt

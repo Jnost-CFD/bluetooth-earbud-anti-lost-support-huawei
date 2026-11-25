@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">耳机守护</string>
+    <string name="subtitle">离线近场查找 · 遗落提醒 · 不联网</string>
+    <string name="no_device">未选择耳机</string>
+    <string name="pick_device">选择耳机</string>
+    <string name="find_device">查找耳机</string>
+    <string name="section_alarm">断连提醒</string>
+    <string name="confirm_question">充电仓在附近，但左右耳都没广播。耳机在充电仓内吗？</string>
+    <string name="btn_in_case">在仓内</string>
+    <string name="btn_not_in_case">不在仓</string>
+    <string name="alarm_master">连接态遗落提醒（佩戴/已连接时）</string>
+    <string name="alarm_presence">收纳态遗落提醒（充电仓内也生效）</string>
+    <string name="beacon_none">未学习：点下方「自动校准」，按提示取放三次</string>
+    <string name="beacon_learned">已校准：%1$s</string>
+    <string name="probe_open">探测日志（排查用）</string>
+    <string name="probe_copy">复制探测日志</string>
+    <string name="alarm_distance">触发距离</string>
+    <string name="lv1">形影不离（小于 1 米）</string>
+    <string name="lv2">随身携带（约 2 米）</string>
+    <string name="lv3">待在附近（约 5 米）</string>
+    <string name="lv4">完全断开（收不到信号时）</string>
+    <string name="alarm_distance_value">超出 %1$d 米提醒（0 = 只看信号消失）</string>
+    <string name="probe_starting">正在扫描附近广播…</string>
+    <string name="alarm_repeat">未重连时循环提醒</string>
+    <string name="alarm_sound">提醒时响铃</string>
+    <string name="alarm_vibrate">提醒时震动</string>
+    <string name="delay_default">断开后 5 秒提醒</string>
+    <string name="hint_offline">说明：查找与遗落判定只接收耳机自身发出的蓝牙广播，全程离线、不配对、不上传数据。耳机放在充电仓内或已连接手机时通常不广播，此时请用“断连提醒”查看最后在线时间。</string>
+    <string name="title_scan">选择耳机</string>
+    <string name="title_find">查找耳机</string>
+    <string name="title_probe">探测日志</string>
+    <string name="title_calibrate">自动校准左右耳</string>
+    <string name="cal_action">开始本步扫描</string>
+    <string name="calibrate">自动校准左右耳（按提示取放）</string>
+    <string name="title_history">遗落记录</string>
+    <string name="history_open">遗落记录</string>
+    <string name="hist_title">遗落记录</string>
+    <string name="hist_sub">最近 10 条 / 48 小时内 · 点条目看地址与坐标</string>
+    <string name="hist_empty">暂无遗落记录</string>
+    <string name="hist_clear">清除全部</string>
+    <string name="clear_question">耳机已回到身边，要清除这几次的遗落记录吗？</string>
+    <string name="btn_clear">清除</string>
+    <string name="btn_keep">保留</string>
+    <string name="scan_starting">正在扫描附近设备…</string>
+    <string name="cancel">取消</string>
+    <string name="find_title">查找耳机</string>
+    <string name="find_hint">正在搜索信号…保持移动，越近提示越急促</string>
+    <string name="find_stop">停止查找</string>
+</resources>
