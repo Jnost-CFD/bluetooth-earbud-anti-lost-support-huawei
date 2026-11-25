@@ -224,7 +224,6 @@ budguard/
 │   ├── res/                         布局与资源
 │   └── AndroidManifest.xml
 ├── build.ps1                        裸工具链构建脚本
-├── docs/DEVLOG.md                   开发过程与技术决策记录
 └── README.md
 ```
 
