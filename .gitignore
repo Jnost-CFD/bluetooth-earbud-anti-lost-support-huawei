@@ -24,6 +24,7 @@ gradle-app.setting
 local.properties
 *.iml
 .idea/
+.externalNativeBuild/
 .cxx/
 captures/
 
